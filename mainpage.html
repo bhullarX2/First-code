@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hameeda Hospital</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div id="logo-name">
+            <h1><a href="mainpage.html">Hameeda Hospital</a></h1>
+        </div>
+    </header>
+    <nav>
+        <!-- Add a navigation buttons in your web page -->
+         <div class="navbar">
+          <div><button type="submit" id="home-button"><a href="mainpage.html">Home</a></button></div>
+          <div><button type="submit" id="aboutus-button"><a href="Aboutus.html">About Us</a></button></div>
+          <div><button type="submit" id="login-button"><a href="loginpage.html">Login</a></button></div>
+          <div><button type="submit" id="signup-button"><a href="signuppage.html">Sign Up</a></button></div>
+         </div>
+    </nav>
+   <br>
+    <main>
+        <!-- add a picture in top after the name of hospital -->
+         <div class="first-image">
+            <picture>
+                <img src="hospital.jpg" alt="Hameeda Hospital staff image" width="100%" height="350px">
+            </picture>
+        </div>
+         <!-- Add Departments of your hospital -->
+          <section>
+            <!-- Firstly we add the department of service section -->
+            <div>
+                <h1><a href="Emergency.html" target="_blank">Emergency<br>
+                    <img src="emergency.png" alt="Emergency department">
+                </a></h1>
+            </div>
+            <div>
+                <h1><a href="radiology.html" target="_blank">Radiology<br>
+                    <img src="radiology.jfif" alt="Radiology Department">
+                </a></h1>
+            </div>
+          </section>
+          <section>
+            <div>
+                <h1><a href="surgery.html" target="_blank">Surgery<br>
+                    <img src="Surgery.jfif" alt="Surgery Department">
+                </a></h1>
+            </div>
+            <div>
+                <h1><a href="labortary.html" target="_blank">Labotray<br>
+                    <img src="labotray.jfif" alt="labotray department">
+                </a></h1>
+            </div>
+          </section>
+    </main>
+    <footer>
+        <!-- Now customize the footer section with including contact us section and other important links for you web page footer -->
+         <div>
+            <h1><u>Contact Us</u></h1>
+         </div>
+        <div class="contact-page">
+            <form method="post">
+                <label for="01">Your Name</label>
+                <input type="text" id="01" placeholder="enter your name" required><br><br>
+    
+                <label for="02">Email</label>
+                <input type="text" id="02" placeholder="enter your email" required><br><br>
+    
+                <label for="03">Mobile Phone</label>
+                <input type="tel" id="03" placeholder="enter your phone number" required minlength="11"><br><br>
+    
+                <label for="message"></label>
+                <textarea name="message" id="message" rows="5" cols="40" placeholder="write your message" required></textarea><br><br>
+    
+                <button type="submit" value="Submit">Submit</button>
+            </form>
+        </div>
+        <div>
+            <h1><u>Social Links</u></h1>
+            <ul>
+                <li><b>Facebook : </b><a href="https://www.facebook.com/AlexandraHospitalSG/" target="_blank">Alexandra Hopital</a></li>
+                <li><b>Youtube : </b><a href="https://www.youtube.com/channel/UCgeeyHyq55-wmYM3Uy7Lw7A" target="_blank">St. Luke Hospital</a></li>
+                <li><b>Twitter : </b><a href="https://x.com/drtedros?lang=en&mx=2">Tedros Andhom</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><b>Address : </b>City example,Street ABC, T/D XYZ</li>
+                <li><b>Mobile Phone : </b>+920300326981</li>
+                <li><b>Email : </b>hameedahospital@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
